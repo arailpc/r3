@@ -1,4 +1,21 @@
-span {
-  color: red;
-  background: black;
+ul {
+  list-style-type: none;
+}
+
+.important {
+  font-weight: bold;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #acacac;
+  margin: 0;
+  padding: 0.3rem;
+}
+.item:nth-of-type(1) {
+  border-top: 1px solid #acacac;
+}
+button {
+  margin: 0;
 }

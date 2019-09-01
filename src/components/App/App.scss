@@ -7,15 +7,33 @@ ul {
 }
 .item {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px solid #acacac;
+  justify-content: space-between;
+
   margin: 0;
   padding: 0.3rem;
+
+  border-bottom: 1px solid #acacac;
 }
 .item:nth-of-type(1) {
   border-top: 1px solid #acacac;
 }
 button {
   margin: 0;
+}
+
+.btn svg {
+  display: block;
+
+  fill: white;
+}
+
+.btn:active svg,
+.btn:hover svg,
+.btn:focus svg {
+  fill: $color-primary;
+}
+
+.light {
+  background: burlywood;
 }
